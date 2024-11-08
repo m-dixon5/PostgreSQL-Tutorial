@@ -27,7 +27,7 @@ cursor = connection.cursor()
 # cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["Queen"])
 
 #Test Query - 
-cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["Led Zepellin"])
+# cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["Led Zepellin"])
 
 #fetch the results (multiple)
 results = cursor.fetchall()
